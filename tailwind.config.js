@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
-import { addIconSelectors } from "@iconify/tailwind";
-import { addDynamicIconSelectors } from "@iconify/tailwind";
+// import { addIconSelectors } from "@iconify/tailwind";
+import { addDynamicIconSelectors ,addIconSelectors} from "@iconify/tailwind";
 import { iconsPlugin, getIconCollections } from "@egoist/tailwindcss-icons";
 export default {
   content: [
