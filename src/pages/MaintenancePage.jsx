@@ -1,11 +1,11 @@
 import React from 'react';
-import { Clock, Tool, Info } from 'lucide-react';
+import { Clock, Info } from 'lucide-react';
 
 const MaintenancePage = ({ message, estimatedDowntime }) => {
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
       <div className="bg-white shadow-lg rounded-lg p-8 max-w-md w-full text-center">
-        <Tool className="mx-auto mb-6 text-yellow-500 w-16 h-16" />
+        {/* <Tool className="mx-auto mb-6 text-yellow-500 w-16 h-16" /> */}
         
         <h1 className="text-2xl font-bold text-gray-800 mb-4">
           Site Under Maintenance
