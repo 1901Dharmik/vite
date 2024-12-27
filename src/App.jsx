@@ -10,7 +10,7 @@ import LogoShine from "./components/LogoShine";
 import Transition from "./components/Transition";
 import { OpenRoutes } from "./routes/OpenRoutes";
 import { PrivateRoutes } from "./routes/PrivateRoutes";
-import MaintenanceMode from "./components/MaintenancePage";
+
 // import Loader from "./components/Loader";
 const Loader = () => {
   return (
