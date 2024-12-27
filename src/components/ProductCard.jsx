@@ -152,7 +152,7 @@ const ProductCard = (props) => {
                 {/* <span className="">New Season</span> */}
                 {/* <Link className="link" to="/Products/1"> */}
 
-                <img className=""
+                <img
                   src={item?.images[0]?.url}
                   alt=""
                   className="mainImg bg-opacity-75 "
